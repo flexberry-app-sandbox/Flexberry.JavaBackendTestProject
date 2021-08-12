@@ -28,12 +28,13 @@ export default Controller.extend({
             link: 'i-i-s-java-backend-test-project-driver-l',
             caption: i18n.t('forms.application.sitemap.java-backend-test-project.i-i-s-java-backend-test-project-driver-l.caption'),
             title: i18n.t('forms.application.sitemap.java-backend-test-project.i-i-s-java-backend-test-project-driver-l.title'),
+            icon: 'phone',
             children: null
           }, {
             link: 'i-i-s-java-backend-test-project-car-l',
             caption: i18n.t('forms.application.sitemap.java-backend-test-project.i-i-s-java-backend-test-project-car-l.caption'),
             title: i18n.t('forms.application.sitemap.java-backend-test-project.i-i-s-java-backend-test-project-car-l.title'),
-            icon: 'chart bar',
+            icon: 'edit',
             children: null
           }]
         }
