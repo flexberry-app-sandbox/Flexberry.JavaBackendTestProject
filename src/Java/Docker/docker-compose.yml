@@ -1,0 +1,23 @@
+﻿version: '3'
+
+services:
+  webapp:
+    image: javabackendtestproject-java/app
+    build: ../main/webapp
+    environment:
+      DB_ADDR: app-postgres-db
+      DB_NAME: appdb
+      DB_USER: postgres
+      DB_PASS: p@ssw0rd
+    ports:
+      - "80:8080"
+
+  app-postgres-db:
+    image: javabackendtestproject-java/postgre-sql
+    volumes:
+      - DB:/var/lib/pgsql/data/
+    ports:
+      - "5432:5432"
+volumes:
+  DB:
+

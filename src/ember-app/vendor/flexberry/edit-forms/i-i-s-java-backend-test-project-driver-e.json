@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Driver",
+  "name": "IISJavaBackendTestProjectDriverE",
+  "className": "DriverE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-java-backend-test-project-driver",
+      "modelProjection": "DriverE"
+    }
+  ]
+}

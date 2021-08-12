@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-java-backend-test-project-driver-e",
+  "editForm": "i-i-s-java-backend-test-project-driver-e",
+  "external": false,
+  "caption": "Driver",
+  "name": "IISJavaBackendTestProjectDriverL",
+  "className": "DriverL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-java-backend-test-project-driver",
+      "modelProjection": "DriverL"
+    }
+  ]
+}

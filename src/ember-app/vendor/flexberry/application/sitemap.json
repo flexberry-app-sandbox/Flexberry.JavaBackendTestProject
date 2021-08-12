@@ -1,0 +1,29 @@
+﻿{
+  "applicationCaption": "Java backend test project",
+  "applicationTitle": "Java backend test project",
+  "items": [
+    {
+      "link": null,
+      "menuName": "java-backend-test-project",
+      "caption": "JavaBackendTestProject",
+      "title": "JavaBackendTestProject",
+      "children": [
+        {
+          "link": "i-i-s-java-backend-test-project-driver-l",
+          "menuName": null,
+          "caption": "Driver",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-java-backend-test-project-car-l",
+          "menuName": null,
+          "caption": "Car",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}
