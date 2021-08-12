@@ -9,7 +9,7 @@
     "Validate": false,
     "Frontend": {
       "EmberJs": {
-        "EmberApp": true,
+        "EmberApp": false,
         "EmberAddon": false,
         "Build": false,
         "GitClone": false,
@@ -24,10 +24,10 @@
     "Backend": {
       "AspNet": false,
       "AspNetCore": false,
-      "Java": true
+      "Java": false
     },
     "Docker": {
-      "Dockerfile": true,
+      "Dockerfile": false,
       "DockerfileAutobuild": false,
       "DockerBuildShellScript": false,
       "DockerSwarm": false
@@ -43,8 +43,8 @@
       "PostgreSql": {
         "DiffSql": true,
         "FullSql": true,
-        "Security": false,
-        "AdminUser": false,
+        "Security": true,
+        "AdminUser": true,
         "ConnectionString": null
       },
       "ClickHouse": {
