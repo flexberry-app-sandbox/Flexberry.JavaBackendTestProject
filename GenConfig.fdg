@@ -34,14 +34,14 @@
     },
     "Storage": {
       "Mssql": {
-        "DiffSql": false,
+        "DiffSql": true,
         "FullSql": true,
         "Security": false,
         "AdminUser": false,
         "ConnectionString": null
       },
       "PostgreSql": {
-        "DiffSql": false,
+        "DiffSql": true,
         "FullSql": true,
         "Security": false,
         "AdminUser": false,
@@ -53,7 +53,7 @@
         "ConnectionString": null
       },
       "Oracle": {
-        "DiffSql": false,
+        "DiffSql": true,
         "FullSql": true,
         "ConnectionString": null
       },
