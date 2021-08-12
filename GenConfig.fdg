@@ -34,8 +34,8 @@
     },
     "Storage": {
       "Mssql": {
-        "DiffSql": true,
-        "FullSql": true,
+        "DiffSql": false,
+        "FullSql": false,
         "Security": false,
         "AdminUser": false,
         "ConnectionString": null
@@ -53,8 +53,8 @@
         "ConnectionString": null
       },
       "Oracle": {
-        "DiffSql": true,
-        "FullSql": true,
+        "DiffSql": false,
+        "FullSql": false,
         "ConnectionString": null
       },
       "Access": {
